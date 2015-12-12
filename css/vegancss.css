@@ -1,0 +1,52 @@
+/* vegan bootstrap project custom css */
+
+body {
+	background: -webkit-linear-gradient(top, rgba(205,211,211,1), rgba(100,190,200,1)); 
+	background: -moz-linear-gradient(top, rgba(235,241,246,1) 100%, rgba(213,235,251,1) 100%); 
+	background: linear-gradient(top, rgba(235,241,246,1) 100%, rgba(213,235,251,1) 100%); 
+}
+
+
+h5 {
+	text-align: center;
+	font-weight: bold;
+	width: 250px;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: monospace;
+	line-height: 1.5em;
+	letter-spacing: 0.6em;
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+	font-family: monospace;
+}
+
+img {
+	border: 3px solid rgba(30,30,150,0.8);
+}
+
+header {
+	background-color: rgba(30,30,150,0);
+	border-radius: 10px;
+	padding: 2px;
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 10px;
+	text-shadow: 2px 2px rgba(30,30,150,0.4);
+	font-weight: bold;	
+	font-family: monospace;
+}
+
+.nav, .navbar-nav {
+	font-weight: bold;
+	font-size: 1.4em;
+	padding-left: 2px;
+}

@@ -1,0 +1,142 @@
+/* Visit Benin bootstrap project custom css. Lea Cohen. MMART 167. Dec.2015 */
+
+body {
+	margin: 10px auto;
+	background-color: rgba(253,203,124, 0.9);
+	max-width: 100%;
+	position: relative;
+}
+
+
+.mainpic {
+	padding: 0;
+    top: 0;
+	margin: 0;
+}
+
+
+.container.maincontent {
+	max-width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+p::first-letter { 
+    font-size: 2em;
+    color: rgba(223,90,60, 1);
+}
+
+footer {
+	color: black;
+    font-family: Helvetica;
+    text-align: center;
+	font-weight: bold;
+	line-height: 3em;
+}
+
+.glyphicon {
+	color: rgba(223,90,60, 1);
+}
+
+#photos {
+	max-width: 80%;
+	margin: 0 auto;
+	border: none;
+}
+
+.carousel-inner .item img {
+	margin: 0;
+	padding: 0;
+	border: 5px solid Brown;
+}
+
+.row > h3 {
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+
+}
+
+.navbar {
+	background-color: rgba(253,203,124, 1);
+}
+
+.french {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+.maintitle {
+	padding-top: 0;
+	margin-top: 0; 
+	color: rgba(223,90,60, 1);
+	font-size: 1.3em;
+	font-family: 'Oleo Script', Helvetica, sans-serif;
+}
+.todo {
+	margin: 0;
+	padding: 3px;
+	border: 4px dotted #fff;
+	max-width: 80%;
+}
+
+#myNavbar li a {
+	color: black;
+	font-weight: bold;
+}
+
+#myNavbar li:hover {
+	background-color: rgba(243,203,124, 0.9);
+}
+
+#myNavbar li.active a {
+	color: rgba(230, 224, 168, 0.9);
+}
+
+#title {
+	color: black;
+	font-weight: bold;
+}
+
+#title:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.search {
+	background-color: rgba(230, 224, 168, 1);
+}
+
+.search:hover {
+	background-color: rgba(230, 224, 168, 0.7);
+	color: black;
+}
+
+/* image gallery */
+#mygallery {
+	margin: 10px auto;
+}
+
+#mygallery img {
+  	border: 3px solid black;
+  	border-radius: 20px 20px;
+  	width: 200px;
+  	display: inline;
+}
+
+.info {
+	font-size: 1.1em;
+}
+
+/* media queries */
+
+@media (max-width: 350px) {
+       .mainpic {
+           display: none;
+       }
+        h3 {
+        	font-size: 1.5em;
+       }
+
+}
+

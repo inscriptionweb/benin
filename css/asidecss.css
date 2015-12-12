@@ -1,0 +1,36 @@
+/* runner duck bootstrap project custom css */
+
+body {
+	margin: 10px auto;
+	background: -webkit-linear-gradient(top, rgba(220,220,220,0.5), rgba(100,100,100,0.5)); 
+	background: -moz-linear-gradient(top, rgba(220,220,220,0.5), rgba(100,100,100,0.5));
+	background: linear-gradient(top, rgba(220,220,220,0.5), rgba(100,100,100,0.5));
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: bold;
+	text-shadow: 2px 2px Gray;
+	font-family: monospace;
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+	font-family: monospace;
+}
+
+img {
+	border: 2px solid black;
+	margin: 10px;
+}
+
+aside {
+	border: 2px dashed black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	
+	margin-top: 30px;
+	padding: 1px;
+}
